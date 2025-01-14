@@ -32,42 +32,7 @@ const Carousel = () => {
               alt="Third slide"
             />
           </div>
-          <div className="carousel-item">
-            <img
-              className="d-block w-100"
-              src={CarouselImage4}
-              alt="Fourth slide"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="d-block w-100"
-              src={CarouselImage5}
-              alt="Fifth slide"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="d-block w-100"
-              src={CarouselImage6}
-              alt="Sixth slide"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="d-block w-100"
-              src={CarouselImage7}
-              alt="Seventh slide"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="d-block w-100"
-              src={CarouselImage8}
-              alt="Eighth slide"
-            />
-          </div>
-        </div>
+                  
         <button
           className="carousel-control-prev"
           type="button"
@@ -92,7 +57,8 @@ const Carousel = () => {
           />
           <span className="visually-hidden">Next</span>
         </button>
-      </div>
+        </div>
+        </div>
     );
 };
 
